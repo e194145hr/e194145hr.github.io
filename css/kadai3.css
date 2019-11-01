@@ -1,0 +1,24 @@
+body{
+    background-image:url(../images/1311_iron_plate_m.jpg);
+    background-attachment:fixed;
+}
+
+h1{
+    color:#e8263a;
+    text-align:center;
+    background-color:cornflowerblue;
+}
+
+h2{
+    color:crimson;
+    text-align:center;
+    background-color:azure;
+}
+
+h3{
+    color:#f2ff24;
+}
+
+p{
+    color:red;
+}

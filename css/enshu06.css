@@ -1,0 +1,38 @@
+h1{
+    /*文字装飾関係*/
+    
+    /*文字色を変更*/
+    color:red;      /*color:#ff0000;*/
+    
+    /*文字の大きさを変更*/
+    font-size:50px;
+    
+    /*文字の太さを変更*/
+    font-weight:bold;
+    
+    /*文字のフォントを変更*/
+    font-family:"Impact";
+    
+    /*文字の寄せ方を変更*/
+    text-align:center;
+    
+    
+    /*背景装飾関係*/
+    
+    /*背景色を変更*/
+    background-color:aquamarine;
+}
+
+body{
+    /*背景を画像にする*/
+    background-image:url("../images/2020_CBR1000RR_s.jpg");
+    
+    /*背景画像の繰り返し方*/
+    background-repeat:repeat-y;
+    
+    /*背景画像のスクロール方法を変える*/
+    background-attachment:fixed;
+    
+    /*背景画像の初期位置を変える*/
+    background-position:center;
+}
