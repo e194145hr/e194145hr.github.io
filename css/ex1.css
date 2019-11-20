@@ -1,0 +1,27 @@
+body{
+    color:aqua;
+    background-image:url("../images/asphalt01-large.jpg");
+    background-repeat:repeat;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    background-color:#ed131f;
+}
+
+h2{
+    color:white;
+    text-align:center;
+    background-color:#ed131f;
+}
+
+table{
+    color:black;
+    background-color:white;
+}
+
+ol{
+    color:black;
+    background-image:url("../images/Concrete-wall-texture04.jpg");
+}
