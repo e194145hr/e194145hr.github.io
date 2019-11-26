@@ -1,0 +1,27 @@
+body{
+    background-image:url("../images/Concrete-wall-texture04.jpg");
+}
+
+.page_title{
+    text-align:center;
+    color:#db1800;
+    background-color:black;
+}
+
+.item1{
+    text-align:center;
+    color:black;
+    background-color:#cc1800;
+}
+
+.item2{
+    text-align:center;
+    color:white;
+    background-color:lightskyblue;
+}
+
+.link{
+    text-align:center;
+    color:darkblue;
+    background-color:green;
+}
