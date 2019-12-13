@@ -1,0 +1,81 @@
+.wrap{
+    width:1000px;
+    margin:0px auto;
+}
+
+.title{
+    width:990px;
+    height:40px;
+    margin-bottom:20px;
+    padding-left:10px;
+    
+    background-color:red;
+    line-height:40px;
+}
+
+.Item{
+    width:1000px;
+    margin-bottom:20px;
+    
+    font-size:0px;
+}
+
+.menu{
+    display:inline-block;
+    vertical-align:top;
+    margin-right:50px;
+    
+    width:250px;
+    
+    font-size:15px;
+    line-height:100px;
+    text-align:center;
+}
+
+.menuitem_e{
+    height:100px;
+    
+    background-color:azure;
+}
+
+.menuitem_c{
+    height:100px;
+    margin:10px 0px;
+    
+    background-color:azure;
+}
+
+.description{
+    display:inline-block;
+    vertical-align:top;
+    
+    width:700px;
+    
+    font-size:15px;
+    text-align:center;
+}
+
+.image{
+    height:300px;
+    background-color:black;
+    
+    color:white;
+    line-height:300px;
+}
+
+.text{
+    height:20px;
+    background-color:chartreuse;
+    line-height:20px;
+}
+
+.footer{
+    width:990px;
+    height:40px;
+    padding-right:10px;
+    
+    background-color:blue;
+    
+    text-align:right;
+    line-height:40px;
+}
