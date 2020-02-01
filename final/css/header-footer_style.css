@@ -1,0 +1,35 @@
+/* ヘッダー */
+
+#header-menu
+{
+    display:flex;
+    background:#000030;
+    
+    justify-content:center;
+}
+
+#header-menu ul
+{
+    margin:0;
+    padding:0;
+    
+    
+}
+
+#header-menu li
+{
+    margin:0;
+    padding:0;
+    width:150px;
+    
+    list-style:none;
+    text-align:center;
+}
+
+#header-menu li a
+{
+    text-decoration:none;
+    color:white;
+}
+
+/* フッター */
