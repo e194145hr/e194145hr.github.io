@@ -1,19 +1,19 @@
 /* ヘッダー */
+.header-logo>img
+{
+    width:15%;
+    height:15%;
+}
 
 #header-menu
 {
     display:flex;
     background:#000030;
     
-    justify-content:center;
-}
-
-#header-menu ul
-{
     margin:0;
     padding:0;
     
-    
+    justify-content:center;
 }
 
 #header-menu li
@@ -22,8 +22,8 @@
     padding:0;
     width:150px;
     
-    list-style:none;
     text-align:center;
+    list-style:none;
 }
 
 #header-menu li a
@@ -32,4 +32,29 @@
     color:white;
 }
 
+#header-menu li li
+{
+    height:0;
+    
+    overflow:hidden;
+    transition:.5s;
+}
+
+#header-menu li:hover>ul>li
+{
+    height:50px;
+    overflow: visible;
+}
+
 /* フッター */
+
+#footer-wrap
+{
+    background:#000030;
+    color:#c8c8c8;
+}
+
+#footer-copyright
+{
+    text-align:center;
+}
