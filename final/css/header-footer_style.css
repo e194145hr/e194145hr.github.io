@@ -1,15 +1,25 @@
 /* ヘッダー */
+
+header
+{
+    background:#000030;
+}
+
+header>h1
+{
+    width:100px;
+    height:100px;
+}
+
 .header-logo>img
 {
-    width:15%;
-    height:15%;
+    width:100px;
+    height:100px;
 }
 
 #header-menu
 {
     display:flex;
-    background:#000030;
-    
     margin:0;
     padding:0;
     
@@ -32,7 +42,7 @@
     color:white;
 }
 
-#header-menu li li
+#header-menu>li>.menu-hobby-child>ul>li
 {
     height:0;
     
@@ -40,9 +50,9 @@
     transition:.5s;
 }
 
-#header-menu li:hover>ul>li
+#header-menu>li:hover>.menu-hobby-child>ul>li
 {
-    height:50px;
+    height:30px;
     overflow: visible;
 }
 
