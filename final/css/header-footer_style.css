@@ -1,11 +1,21 @@
 /* ヘッダー */
 
-header
+/* PC */
+
+@media screen and (max-width:740px)
 {
-    background:#000030;
+    .menu-pc
+    {
+        display:none;
+    }
 }
 
-header>h1
+.menu-pc
+{
+    background-color:#000030;
+}
+
+.menu-pc>h1
 {
     width:100px;
     height:100px;
@@ -51,7 +61,7 @@ header>h1
 
 
 
-#header-menu>li>.menu-hobby-child>ul>li
+#header-menu ul li
 {
     height:0;
     
@@ -59,10 +69,51 @@ header>h1
     transition:.5s;
 }
 
-#header-menu>li:hover>.menu-hobby-child>ul>li
+#header-menu li:hover ul li
 {
     height:30px;
     overflow: visible;
+    border-top:1px solid #eee;
+}
+
+/* SmartPhone */
+
+@media screen and (min-width:740px)
+{
+    .menu-smartphone
+    {
+        display:none;
+    }
+}
+
+#input
+{
+    display:none;
+}
+
+.line
+{
+    width:20px;
+    height:3px;
+    background-color:black;
+    margin:3px;
+}
+
+#content
+{
+    background-color:lightcoral;
+    width:200px;
+    height:100%;
+    transform:translateX(-200px);
+    transition:.5s;
+    
+    position:fixed;
+    z-index:999;
+}
+
+#input:checked ~ #content
+{
+    transform:translateX(0);
 }
 
 /* フッター */

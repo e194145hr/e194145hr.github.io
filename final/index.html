@@ -21,36 +21,78 @@
             <!-- ヘッダー -->
             <header>
                 
-                <h1 class="header-logo"><img src="images/Logo.png" alt="logo"></h1>
-                
                 <nav>
-                    <!-- ダウンメニュー -->
-                    <ul id="header-menu">
-                        <li>
-                            <a href="#" class="menu-home">Home</a>
-                        </li>
+                    <!-- PC -->
+                    <div class="menu-pc">
+                        <h1 class="header-logo"><img src="images/Logo.png" alt="logo"></h1>
                         
-                        <li>
-                            <a href="profile.html" class="menu-profile">Profile</a>
-                        </li>
+                        <!-- ダウンメニュー -->
+                        <ul id="header-menu">
+                            <li>
+                                <a href="#" class="menu-home">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="profile.html" class="menu-profile">Profile</a>
+                            </li>
+
+                            <li>
+                                <a class="menu-hobby">Hobby</a>
+                                <div class="menu-hobby-child">
+                                    <ul>
+                                        <li><a href="hobby/fishing.html">Fishing</a></li>
+                                        <li><a href="hobby/magic.html">Magic</a></li>
+                                        <li><a href="hobby/motorbike.html">MotorBike</a></li>
+                                        <li><a href="hobby/programming.html">Programming</a></li>
+                                        <li><a href="hobby/rubik_s_cube.html">Rubik's Cube</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="contact.html" class="menu-contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- SmartPhone -->
+                    <div class="menu-smartphone">
+                        <input type="checkbox" id="input">
+                        <label for="input">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </label>
                         
-                        <li>
-                            <a class="menu-hobby">Hobby</a>
-                            <div class="menu-hobby-child">
-                                <ul>
-                                    <li><a href="hobby/fishing.html">Fishing</a></li>
-                                    <li><a href="hobby/magic.html">Magic</a></li>
-                                    <li><a href="hobby/motorbike.html">MotorBike</a></li>
-                                    <li><a href="hobby/programming.html">Programming</a></li>
-                                    <li><a href="hobby/rubik_s_cube.html">Rubik's Cube</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        
-                        <li>
-                            <a href="contact.html" class="menu-contact">Contact</a>
-                        </li>
-                    </ul>
+                        <div id="content">
+                            <ul id="link">
+                                <li>
+                                    <a href="#" class="menu-home">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="profile.html" class="menu-profile">Profile</a>
+                                </li>
+
+                                <li>
+                                    <a class="menu-hobby">Hobby</a>
+                                    <div class="menu-hobby-child">
+                                        <ul>
+                                            <li><a href="hobby/fishing.html">Fishing</a></li>
+                                            <li><a href="hobby/magic.html">Magic</a></li>
+                                            <li><a href="hobby/motorbike.html">MotorBike</a></li>
+                                            <li><a href="hobby/programming.html">Programming</a></li>
+                                            <li><a href="hobby/rubik_s_cube.html">Rubik's Cube</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html" class="menu-contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </nav>
                 
             </header>
