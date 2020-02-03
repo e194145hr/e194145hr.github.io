@@ -104,16 +104,16 @@
     background-color:lightcoral;
     width:200px;
     height:100%;
-    transform:translateX(-200px);
+    transform:translateX(-105%);
     transition:.5s;
     
     position:fixed;
-    z-index:999;
+    z-index:9999;
 }
 
 #input:checked ~ #content
 {
-    transform:translateX(0);
+    transform:translateX(0%);
 }
 
 /* フッター */

@@ -1,0 +1,24 @@
+.hobby_img
+{
+    text-align:center;
+}
+.hobby_img img
+{
+    width:50%;
+}
+
+.hobby_sentence
+{
+    text-align:center;
+}
+
+.hobby_sentence table
+{
+    margin:10px auto;
+    width:500px;
+}
+
+.hobby_sentence li
+{
+    list-style:none;
+}

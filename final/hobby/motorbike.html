@@ -1,11 +1,17 @@
 <!-- 久冨力のHTML -->
+
 <!DOCTYPE html>
 <html>
     
-    <!--基本情報を定義する-->
+    <!-- 基本情報 -->
     <head>
         <meta charset="utf-8">
-        <title>タイトル</title>
+        <title>Riki</title>
+        
+        <link rel="stylesheet" type="text/css" href="../css/main_style.css">
+        <link rel="stylesheet" type="text/css" href="../css/header-footer_style.css">
+        <link rel="stylesheet" type="text/css" href="../css/hobbypage_style.css">
+        
     </head>
     
     <body>
@@ -13,17 +19,160 @@
         <!-- 全体 -->
         <div id="contents-wrap">
             
-            <div id="header">
+            <!-- ヘッダー -->
+            <header>
                 
-            </div>
+                <nav>
+                    <!-- PC -->
+                    <div class="menu-pc">
+                        <h1 class="header-logo"><img src="../images/Logo.png" alt="logo"></h1>
+                        
+                        <!-- ダウンメニュー -->
+                        <ul id="header-menu">
+                            <li>
+                                <a href="index.html" class="menu-home">Home</a>
+                            </li>
+
+                            <li>
+                                <a href="profile.html" class="menu-profile">Profile</a>
+                            </li>
+
+                            <li>
+                                <a class="menu-hobby">Hobby</a>
+                                <div class="menu-hobby-child">
+                                    <ul>
+                                        <li><a href="hobby/fishing.html">Fishing</a></li>
+                                        <li><a href="hobby/magic.html">Magic</a></li>
+                                        <li><a href="hobby/motorbike.html">MotorBike</a></li>
+                                        <li><a href="hobby/programming.html">Programming</a></li>
+                                        <li><a href="hobby/rubik_s_cube.html">Rubik's Cube</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li>
+                                <a href="contact.html" class="menu-contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- SmartPhone -->
+                    <div class="menu-smartphone">
+                        <input type="checkbox" id="input">
+                        <label for="input">
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </label>
+                        
+                        <div id="content">
+                            <ul id="link">
+                                <li>
+                                    <a href="#" class="menu-home">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="profile.html" class="menu-profile">Profile</a>
+                                </li>
+
+                                <li>
+                                    <a class="menu-hobby">Hobby</a>
+                                    <div class="menu-hobby-child">
+                                        <ul>
+                                            <li><a href="hobby/fishing.html">Fishing</a></li>
+                                            <li><a href="hobby/magic.html">Magic</a></li>
+                                            <li><a href="hobby/motorbike.html">MotorBike</a></li>
+                                            <li><a href="hobby/programming.html">Programming</a></li>
+                                            <li><a href="hobby/rubik_s_cube.html">Rubik's Cube</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html" class="menu-contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                
+            </header>
             
+            
+            <!-- メイン画面 -->
             <div id="contents">
-                
+                <div class="hobby_img">
+                    <img src="../images/image-02.jpg">
+                </div>
+                <div class="hobby_sentence">
+                    バイクは、高校1年生の頃にモトブログというものを観て、興味を持った。<br>
+                    今は大型自動二輪の免許は持っているが、バイクがない。
+                    
+                    <h2>好きなバイク</h2>
+                    <table border="1">
+                        <tr>
+                            <th>HONDA</th>
+                            <td>
+                                <ul>
+                                    <li>CBR1000RR</li>
+                                    <li>Hornet250</li>
+                                    <li>CB400SF</li>
+                                    <li>CB400SB</li>
+                                    <li>CB1300SF</li>
+                                    <li>CB1300SB</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>YAMAHA</th>
+                            <td>
+                                <ul>
+                                    <li>YZF-R1</li>
+                                    <li>YZF-R1M</li>
+                                    <li>YZF-R6</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>SUZUKI</th>
+                            <td>
+                                <ul>
+                                    <li>GSX1300R</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>Kawasaki</th>
+                            <td>
+                                <ul>
+                                    <li>NinjaH2</li>
+                                    <li>NinjaZX10R</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             
-            <div id="footer">
-                
-            </div>
+            
+            <!-- フッター -->
+            <footer>
+                <div id="footer-wrap">
+                    
+                    <div id="footer-button">
+
+                    </div>
+                    
+                    <div id="footer-sitemap">
+
+                    </div>
+                    
+                    <div id="footer-copyright">
+                        <small>&copy;2020 RIKIHISADOMI</small>
+                    </div>
+                    
+                </div>
+            </footer>
             
         </div>
         

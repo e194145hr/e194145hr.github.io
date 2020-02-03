@@ -1,0 +1,46 @@
+.slider li
+{
+    list-style:none;
+}
+.slider img
+{
+    width:100%
+}
+#contents ul
+{
+    width:auto;
+    margin:50px 50px;
+    padding:0;
+}
+
+.profile
+{
+    width:500px;
+    height:400px;
+    margin:30px auto;
+}
+
+table
+{
+    width:500px;
+    height:400px;
+    text-align:center;
+    
+    background-color:darkturquoise;
+}
+
+table ul
+{
+    margin:0;
+    padding:0;
+}
+
+table li
+{
+    list-style:none;
+}
+table li a
+{
+    text-decoration:none;
+    color:#000;
+}

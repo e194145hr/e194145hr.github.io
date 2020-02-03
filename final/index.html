@@ -6,10 +6,13 @@
     <!-- 基本情報 -->
     <head>
         <meta charset="utf-8">
-        <title>タイトル</title>
+        <title>Riki</title>
         
         <link rel="stylesheet" type="text/css" href="css/main_style.css">
+        <link rel="stylesheet" type="text/css" href="css/index_style.css">
         <link rel="stylesheet" type="text/css" href="css/header-footer_style.css">
+        <link rel="stylesheet" type="text/css" href="css/slick.css">
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
         
     </head>
     
@@ -29,7 +32,7 @@
                         <!-- ダウンメニュー -->
                         <ul id="header-menu">
                             <li>
-                                <a href="#" class="menu-home">Home</a>
+                                <a href="index.html" class="menu-home">Home</a>
                             </li>
 
                             <li>
@@ -100,7 +103,52 @@
             
             <!-- メイン画面 -->
             <div id="contents">
+                <ul class="slider">
+                    <li><img src="images/IMG_1516.JPG"></li>
+                    <li><img src="images/IMG_E1333.JPG"></li>
+                    <li><img src="images/image-02.jpg"></li>
+                    <li><img src="images/turi.jpg"></li>
+                    <li><img src="images/Programming.png"></li>
+                </ul>
                 
+                <div class="profile">
+                    <h2>Profile</h2>
+                    <table border="1">
+                        <tr>
+                            <th>名前</th>
+                            <td>Riki</td>
+                        </tr>
+                        <tr>
+                            <th>誕生日</th>
+                            <td>5/16</td>
+                        </tr>
+                        <tr>
+                            <th>趣味</th>
+                            <td>
+                                <ul>
+                                    <li>
+                                        <a href="hobby/motorbike.html">バイク</a>
+                                    </li>
+                                    <li>
+                                        <a href="hobby/magic.html">マジック</a>
+                                    </li>
+                                    <li>
+                                        <a href="hobby/fishing.html">釣り</a>
+                                    </li>
+                                    <li>
+                                        <a href="hobby/programming.html">プログラミング</a>
+                                    </li>
+                                    <li>
+                                        <a href="hobby/rubik_s_cube.html">ルービックキューブ</a>
+                                    </li>
+                                    <li>
+                                        その他いろいろ
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             
             
@@ -125,6 +173,10 @@
             
         </div>
         
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script type="text/javescript" src="js/slick.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
     
 </html>
