@@ -2,7 +2,7 @@
 
 /* PC */
 
-@media screen and (max-width:740px)
+@media screen and (max-width:480px)
 {
     .menu-pc
     {
@@ -30,10 +30,22 @@
 #header-menu
 {
     display:flex;
+    height:2em;
     margin:0;
     padding:0;
     
     justify-content:center;
+}
+
+#header-menu .menu-hobby-child
+{
+    position:relative;
+    z-index:9999;
+}
+
+#header-menu .menu-hobby-child ul li
+{
+    background-color:#000030;
 }
 
 #header-menu li
@@ -78,7 +90,7 @@
 
 /* SmartPhone */
 
-@media screen and (min-width:740px)
+@media screen and (min-width:480px)
 {
     .menu-smartphone
     {
